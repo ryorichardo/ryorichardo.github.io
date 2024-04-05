@@ -733,6 +733,12 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
@@ -741,11 +747,11 @@ section {
 .testimonials .testimonial-item {
   box-sizing: content-box;
   text-align: center;
+  height: 90px;
 }
 
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
-  margin: 0 auto;
 }
 
 .testimonials .testimonial-item h3 {
